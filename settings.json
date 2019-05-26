@@ -1,0 +1,144 @@
+{
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode": true,
+    "**/*.pyc": true
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.fontLigatures": true,
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 32,
+  "editor.letterSpacing": 0,
+  "editor.fontFamily": "Operator Mono ,Dank Mono, Operator Mono  Lig",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 28,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 3,
+  "editor.renderWhitespace": "all",
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.statusBar.visible": true,
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautify"
+      ]
+    },
+    "css": [
+      "css",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "blade"
+    ]
+  },
+  "emmet.syntaxProfiles": {
+    "blade.php": "html",
+    "vue": "html"
+  },
+  "editor.matchBrackets": false,
+  "editor.scrollBeyondLastLine": false,
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "autoFix": true,
+      "language": "javascript"
+    },
+    {
+      "autoFix": true,
+      "language": "vue"
+    }
+  ],
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Palenight Italic",
+  "workbench.editor.closeOnFileDelete": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "php.validate.executablePath": "/usr/local/bin/php",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "line",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "sync.gist": "cb7c95bb3229bacd7bcf8f7c413e8de5",
+  "php.suggest.basic": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": false,
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "*.php": "php",
+    "*.blade.php": "blade"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    // Hide everything in /public, except "index.php"
+    "**/public/[abcdefghijklmnopqrstuvwxyz]*": true,
+    "**/public/i[abcdefghijklmnopqrstuvwxyz]*": true,
+    // Hide everything in /vendor, except "laravel" folder.
+    "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
+    "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+    "storage/framework/views": true
+  },
+  "zenMode.fullScreen": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.sideBar.location": "right",
+  "disableLigatures.mode": "Cursor",
+  // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
+  "editor.emptySelectionClipboard": false,
+  // I removed the hyphen "-" from this list for better multi-cursor navigation.
+  // @freekmurze suggested I remove "$" too for php variables - brilliant!
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  // Give it to me as fast as you have it.
+  "editor.quickSuggestionsDelay": 0,
+  // In sublime I got used to almost exclusively using "cmd+shift+v" (format on paste) - now it will do it by default!
+  "editor.formatOnPaste": true,
+  // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "nativescript.analytics.enabled": false,
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+  "breadcrumbs.enabled": false,
+  "editor.renderControlCharacters": false,
+  "phpcs.executablePath": "/Users/kortr/.composer/vendor/bin/phpcs",
+  "phpcs.standard": "PSR2",
+  "workbench.iconTheme": "material-icon-theme",
+  "python.jediEnabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  }
+}
